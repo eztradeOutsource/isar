@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'dev.isar.isar_flutter_libs'
+    qnamespace 'dev.isar.isar_flutter_libs'
     compileSdk 33
 
     defaultConfig {
